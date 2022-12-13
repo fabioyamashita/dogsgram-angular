@@ -1,27 +1,79 @@
-# Exercise1
+# Dogsgram
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.2.
+Esse projeto foi gerado com a versão 15.0.2 do [Angular CLI](https://github.com/angular/angular-cli).
 
-## Development server
+## 🖥️ Preparando o ambiente
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Clone o repositório:
 
-## Code scaffolding
+```
+$ git clone https://github.com/fabioyamashita/dogsgram-angular.git
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Instale todas as dependências:
 
-## Build
+```
+$ npm i
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Caso necessário, instale também o [JSON Server](https://www.npmjs.com/package/json-server):
 
-## Running unit tests
+```
+$ npm i json-server
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Ambiente de Desenvolvimento
 
-## Running end-to-end tests
+- Para conseguir utilizar o fake Back-end criado através do JSON Server, rode o seguinte comando no terminal:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```
+$ json-server --watch dogs.json
+```
 
-## Further help
+- Em outro terminal, rode agora o server dev:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
+$ ng serve
+```
+
+Você poderá ver o projeto atráves da URL: `http://localhost:4200/`.
+
+## Observações
+
+O projeto foi criado em Angular e o JSON Server foi utilizado para atuar como o Back-End da aplicação. O arquivo que será modificado é o `dogs.json`. Caso já tenha feito modificações no arquivo, você poderá consultar o original em `dogs-original.json`.
+
+## Enunciado
+
+O enunciado completo (em pt-br) está no arquivo enunciado.md.
+
+## Solução
+
+Você poderá ver abaixo a solução para cada proposição do projeto.
+
+### Principal
+
+Desenvolver uma aplicação em angular que permita Criar, Atualizar, Deletar e Visualizar itens dentro de um tema escolhido por você (não pode ser o mesmo de sala de aula);
+
+- Visualizando os itens
+- Criando um item
+- Atualizando um item
+- Deletando um item
+
+Criar as rotas para Criar e Visualizar a listagem de itens;
+
+Possuir um header para acesso a cada rota (o header deve ser marcado caso a rota esteja ativa);
+
+Um pop-up deve ser aberto ao clicar tanto no botão de edição, quanto no de deleção de um item;
+
+- Pop-up de edição
+- Pop-up de deleção
+
+Permitir a exclusão de um item através do menu de listagem;
+
+### Extra
+
+O formulário deve ser validado e mensagens devem aparecer para o usuário;
+
+A listagem de itens deve vir do localStorage ou de um JSON Server.
+
+### Features adicionais
