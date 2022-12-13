@@ -44,7 +44,7 @@ O projeto foi criado em Angular e o JSON Server foi utilizado para atuar como o 
 
 ## Enunciado
 
-O enunciado completo (em pt-br) está no arquivo enunciado.md.
+O enunciado completo (em pt-br) está no arquivo [enunciado.md](https://github.com/fabioyamashita/dogsgram-angular/blob/main/enunciado.md).
 
 ## Solução
 
