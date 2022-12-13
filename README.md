@@ -40,7 +40,7 @@ Você poderá ver o projeto atráves da URL: `http://localhost:4200/`.
 
 ## Observações
 
-O projeto foi criado em Angular e o JSON Server foi utilizado para atuar como o Back-End da aplicação. O arquivo que será modificado é o `dogs.json`. Caso já tenha feito modificações no arquivo, você poderá consultar o original em `dogs-original.json`.
+O projeto foi criado em Angular e o JSON Server foi utilizado para atuar como o Back-End da aplicação, para possibilitar a persistência dos dados. O arquivo que será modificado é o `dogs.json`. Caso já tenha feito modificações no arquivo, você poderá consultar o original em `dogs-original.json`.
 
 ## Enunciado
 
