@@ -1,0 +1,24 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 600px;
+  padding: 1.2rem;
+  margin: 0 auto;
+
+  gap: 0.8rem;
+}
+
+mat-form-field {
+  width: 500px;
+}
+
+.heading-primary {
+  padding-top: 0.4rem;
+}
+
+mat-error {
+  margin-bottom: 1rem;
+}
