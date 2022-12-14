@@ -87,7 +87,13 @@ Um pop-up deve ser aberto ao clicar tanto no botão de edição, quanto no de de
 
 ### Extra!
 
-O formulário deve ser validado e mensagens devem aparecer para o usuário;  
+O formulário deve ser validado e mensagens devem aparecer para o usuário;
+
+Foram feitas validações de:
+- Nome do cachorro (Vai apontar erro caso não seja preenchido - obrigatório)
+- Descrição (Vai apontar erro caso não seja preenchido - obrigatório)
+- URL da foto de perfil (Vai apontar erro caso tenha uma URL inválida)
+- URL da foto de dentro do card (Vai apontar erro caso tenha uma URL inválida)  
 
 ![dogsgram-input-verification](https://user-images.githubusercontent.com/98363297/207476526-509c85dc-5319-4d15-b41e-4950e5643c1d.gif)
 
