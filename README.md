@@ -18,7 +18,7 @@ $ git clone https://github.com/fabioyamashita/dogsgram-angular.git
 $ npm i
 ```
 
-- Caso necessário, instale também o [JSON Server](https://www.npmjs.com/package/json-server):
+- Caso ainda não tenha, instale também o [JSON Server](https://www.npmjs.com/package/json-server):
 
 ```
 $ npm i json-server
