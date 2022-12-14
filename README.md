@@ -44,6 +44,8 @@ Você poderá ver o projeto atráves da URL: `http://localhost:4200/`.
 
 O projeto foi criado em Angular e o JSON Server foi utilizado para atuar como o Back-End da aplicação, para possibilitar a persistência dos dados. O arquivo que será modificado é o `dogs.json`. Caso já tenha feito modificações no arquivo, você poderá consultar o original em `dogs-original.json`.
 
+O JSON Server pode sofrer algumas instabilidades ao chamar os endpoints, então, caso alguma funcionalidade falhe, veja se precisa rodar o comando `json-server --watch dogs.json` no terminal de novo.
+
 ## Enunciado
 
 O enunciado completo (em pt-br) está no arquivo [enunciado.md](https://github.com/fabioyamashita/dogsgram-angular/blob/main/enunciado.md).
