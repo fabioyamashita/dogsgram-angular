@@ -77,3 +77,6 @@ O formulário deve ser validado e mensagens devem aparecer para o usuário;
 A listagem de itens deve vir do localStorage ou de um JSON Server.
 
 ### Features adicionais
+- Botão de Like
+- Data e hora da última vez visualizado
+- Se as imagens não forem fornecidas, uma padrão será mostrada (e salva)
