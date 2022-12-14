@@ -52,7 +52,9 @@ O enunciado completo (em pt-br) está no arquivo [enunciado.md](https://github.c
 
 ## Solução
 
-Você poderá ver abaixo a solução para cada proposição do projeto. Os textos em *itálico* foram retirados do enunciado do projeto.
+Você poderá ver abaixo a solução para cada proposição do projeto. 
+
+Os textos em ***itálico*** foram retirados do enunciado do projeto.
 
 <hr>
 
