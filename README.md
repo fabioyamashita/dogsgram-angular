@@ -1,6 +1,6 @@
 # Dogsgram
 
-Dogsgram é um CRUD criado em Angular como um projeto final do  Módulo 10 - Angular I da Let's Code - Turma 853 | Web Full Stack.
+Dogsgram é um CRUD criado em Angular como projeto final do Módulo 10 - Angular I da Let's Code - Turma 853 | Web Full Stack.
 
 Esse projeto foi gerado com a versão 15.0.2 do [Angular CLI](https://github.com/angular/angular-cli).
 
