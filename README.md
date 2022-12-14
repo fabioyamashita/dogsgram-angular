@@ -90,7 +90,7 @@ O formulário deve ser validado e mensagens devem aparecer para o usuário;
 ![dogsgram-input-verification](https://user-images.githubusercontent.com/98363297/207476526-509c85dc-5319-4d15-b41e-4950e5643c1d.gif)
 
 A listagem de itens deve vir do localStorage ou de um JSON Server.
-- Foi utilizado o JSON Server como o Back-End da aplicação.
+- Foi utilizado o JSON Server como o Back-End da aplicação. Veja mais na seção [Observações](#observações).
 
 <hr>
 
