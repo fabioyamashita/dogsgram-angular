@@ -52,15 +52,15 @@ O enunciado completo (em pt-br) está no arquivo [enunciado.md](https://github.c
 
 ## Solução
 
-Você poderá ver abaixo a solução para cada proposição do projeto.
+Você poderá ver abaixo a solução para cada proposição do projeto. Os textos em *itálico* foram retirados do enunciado do projeto.
 
 <hr>
 
 ### Principal
 
-Desenvolver uma aplicação em angular que permita Criar, Atualizar, Deletar e Visualizar itens dentro de um tema escolhido por você (não pode ser o mesmo de sala de aula);
+*Desenvolver uma aplicação em angular que permita Criar, Atualizar, Deletar e Visualizar itens dentro de um tema escolhido por você (não pode ser o mesmo de sala de aula);*
 
-Um pop-up deve ser aberto ao clicar tanto no botão de edição, quanto no de deleção de um item;
+*Um pop-up deve ser aberto ao clicar tanto no botão de edição, quanto no de deleção de um item;*
 
 - Visualizando os itens  
   
@@ -74,12 +74,12 @@ Um pop-up deve ser aberto ao clicar tanto no botão de edição, quanto no de de
 
 ![dogsgram-update](https://user-images.githubusercontent.com/98363297/207474777-85ee8a04-77b7-4cae-b44b-7d06207efa40.gif)
 
-- Deletando um item (Permitir a exclusão de um item através do menu de listagem) + Pop-up de deleção  
+- Deletando um item (*Permitir a exclusão de um item através do menu de listagem*) + Pop-up de deleção  
 
 ![dogsgram-delete](https://user-images.githubusercontent.com/98363297/207474793-42c5ecc5-0d51-4034-bb95-83dab9dd5189.gif)
 
-- Criar as rotas para Criar e Visualizar a listagem de itens;
-- Possuir um header para acesso a cada rota (o header deve ser marcado caso a rota esteja ativa);  
+- *Criar as rotas para Criar e Visualizar a listagem de itens;*
+- *Possuir um header para acesso a cada rota (o header deve ser marcado caso a rota esteja ativa);*  
 
 ![dogsgram-routes](https://user-images.githubusercontent.com/98363297/207476238-4991fd34-b420-484d-a905-f287956d6b5e.gif)
 
@@ -87,7 +87,7 @@ Um pop-up deve ser aberto ao clicar tanto no botão de edição, quanto no de de
 
 ### Extra!
 
-O formulário deve ser validado e mensagens devem aparecer para o usuário;
+*O formulário deve ser validado e mensagens devem aparecer para o usuário;*
 
 Foram feitas validações de:
 - Nome do cachorro (Vai apontar erro caso não seja preenchido - obrigatório)
@@ -99,7 +99,7 @@ O botão de criar só será disponibilizado caso todas os campos forem válidos.
 
 ![dogsgram-input-verification](https://user-images.githubusercontent.com/98363297/207476526-509c85dc-5319-4d15-b41e-4950e5643c1d.gif)
 
-A listagem de itens deve vir do localStorage ou de um JSON Server.
+*A listagem de itens deve vir do localStorage ou de um JSON Server.*
 - Foi utilizado o JSON Server como o Back-End da aplicação. Veja mais na seção [Observações](#observações).
 
 <hr>
