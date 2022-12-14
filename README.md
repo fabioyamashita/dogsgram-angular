@@ -54,9 +54,14 @@ Você poderá ver abaixo a solução para cada proposição do projeto.
 
 Desenvolver uma aplicação em angular que permita Criar, Atualizar, Deletar e Visualizar itens dentro de um tema escolhido por você (não pode ser o mesmo de sala de aula);
 
-- Visualizando os itens
-- Criando um item
+- Visualizando os itens  
+![dogsgram-list](https://user-images.githubusercontent.com/98363297/207473989-6df11c6e-909d-45a9-99f1-d2e6ca8ec8fa.gif)
+
+- Criando um item  
+![dogsgram-create](https://user-images.githubusercontent.com/98363297/207473998-1f1e1a4a-f8bd-4f25-8ad5-053817a99ce7.gif)
+
 - Atualizando um item
+
 - Deletando um item
 
 Criar as rotas para Criar e Visualizar a listagem de itens;
@@ -70,7 +75,7 @@ Um pop-up deve ser aberto ao clicar tanto no botão de edição, quanto no de de
 
 Permitir a exclusão de um item através do menu de listagem;
 
-### Extra
+### Extra!
 
 O formulário deve ser validado e mensagens devem aparecer para o usuário;
 
