@@ -50,6 +50,8 @@ O enunciado completo (em pt-br) está no arquivo [enunciado.md](https://github.c
 
 Você poderá ver abaixo a solução para cada proposição do projeto.
 
+<hr>
+
 ### Principal
 
 Desenvolver uma aplicação em angular que permita Criar, Atualizar, Deletar e Visualizar itens dentro de um tema escolhido por você (não pode ser o mesmo de sala de aula);
@@ -77,6 +79,8 @@ Um pop-up deve ser aberto ao clicar tanto no botão de edição, quanto no de de
 
 ![dogsgram-routes](https://user-images.githubusercontent.com/98363297/207476238-4991fd34-b420-484d-a905-f287956d6b5e.gif)
 
+<hr>
+
 ### Extra!
 
 O formulário deve ser validado e mensagens devem aparecer para o usuário;  
@@ -85,6 +89,8 @@ O formulário deve ser validado e mensagens devem aparecer para o usuário;
 
 A listagem de itens deve vir do localStorage ou de um JSON Server.
 - Foi utilizado o JSON Server como o Back-End da aplicação.
+
+<hr>
 
 ### Features adicionais
 - Botão de Like  
@@ -98,4 +104,8 @@ A listagem de itens deve vir do localStorage ou de um JSON Server.
 - Se as imagens não forem fornecidas, uma padrão será mostrada (e salva)  
 
 ![dogsgram-create-nopic](https://user-images.githubusercontent.com/98363297/207476673-71e475af-8497-4597-8b0c-52a344d7b753.gif)
+
+- Página 404 personalizada, caso a rota não seja encontrada  
+
+![dogsgram-404](https://user-images.githubusercontent.com/98363297/207477758-1891f647-2c17-44b2-9921-da77aace5e76.gif)
 
