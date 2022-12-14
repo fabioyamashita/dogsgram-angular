@@ -54,34 +54,48 @@ Você poderá ver abaixo a solução para cada proposição do projeto.
 
 Desenvolver uma aplicação em angular que permita Criar, Atualizar, Deletar e Visualizar itens dentro de um tema escolhido por você (não pode ser o mesmo de sala de aula);
 
+Um pop-up deve ser aberto ao clicar tanto no botão de edição, quanto no de deleção de um item;
+
 - Visualizando os itens  
+  
 ![dogsgram-list](https://user-images.githubusercontent.com/98363297/207473989-6df11c6e-909d-45a9-99f1-d2e6ca8ec8fa.gif)
 
 - Criando um item  
+
 ![dogsgram-create](https://user-images.githubusercontent.com/98363297/207473998-1f1e1a4a-f8bd-4f25-8ad5-053817a99ce7.gif)
 
-- Atualizando um item
+- Atualizando um item + Pop-up de edição  
 
-- Deletando um item
+![dogsgram-update](https://user-images.githubusercontent.com/98363297/207474777-85ee8a04-77b7-4cae-b44b-7d06207efa40.gif)
 
-Criar as rotas para Criar e Visualizar a listagem de itens;
+- Deletando um item (Permitir a exclusão de um item através do menu de listagem) + Pop-up de deleção  
 
-Possuir um header para acesso a cada rota (o header deve ser marcado caso a rota esteja ativa);
+![dogsgram-delete](https://user-images.githubusercontent.com/98363297/207474793-42c5ecc5-0d51-4034-bb95-83dab9dd5189.gif)
 
-Um pop-up deve ser aberto ao clicar tanto no botão de edição, quanto no de deleção de um item;
+- Criar as rotas para Criar e Visualizar a listagem de itens;
+- Possuir um header para acesso a cada rota (o header deve ser marcado caso a rota esteja ativa);  
 
-- Pop-up de edição
-- Pop-up de deleção
-
-Permitir a exclusão de um item através do menu de listagem;
+![dogsgram-routes](https://user-images.githubusercontent.com/98363297/207476238-4991fd34-b420-484d-a905-f287956d6b5e.gif)
 
 ### Extra!
 
-O formulário deve ser validado e mensagens devem aparecer para o usuário;
+O formulário deve ser validado e mensagens devem aparecer para o usuário;  
+
+![dogsgram-input-verification](https://user-images.githubusercontent.com/98363297/207476526-509c85dc-5319-4d15-b41e-4950e5643c1d.gif)
 
 A listagem de itens deve vir do localStorage ou de um JSON Server.
+- Foi utilizado o JSON Server como o Back-End da aplicação.
 
 ### Features adicionais
-- Botão de Like
-- Data e hora da última vez visualizado
-- Se as imagens não forem fornecidas, uma padrão será mostrada (e salva)
+- Botão de Like  
+
+![dogsgram-like](https://user-images.githubusercontent.com/98363297/207476623-d17b42e1-da0d-4410-8f41-122e9fa850fe.gif)
+
+- Data e hora da última vez visualizado  
+
+![dogsgram-last-seen](https://user-images.githubusercontent.com/98363297/207476658-f10ef347-05b2-4f93-b8e9-66bd671593d8.gif)
+
+- Se as imagens não forem fornecidas, uma padrão será mostrada (e salva)  
+
+![dogsgram-create-nopic](https://user-images.githubusercontent.com/98363297/207476673-71e475af-8497-4597-8b0c-52a344d7b753.gif)
+
