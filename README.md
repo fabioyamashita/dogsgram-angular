@@ -97,7 +97,7 @@ Foram feitas validações de:
 - URL da foto de perfil (Vai apontar erro caso tenha uma URL inválida)
 - URL da foto de dentro do card (Vai apontar erro caso tenha uma URL inválida)
 
-O botão de criar só será disponibilizado caso todas os campos forem válidos.  
+O botão de criar só será disponibilizado caso todos os campos forem válidos.  
 
 ![dogsgram-input-verification](https://user-images.githubusercontent.com/98363297/207476526-509c85dc-5319-4d15-b41e-4950e5643c1d.gif)
 
